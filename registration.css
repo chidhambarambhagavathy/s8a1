@@ -1,0 +1,132 @@
+body, form {
+	max-width: 800px;
+	font-family: 'Calibri';
+	padding-right: 25px;
+}
+
+
+#regForm {
+	background-color: #EFEFEF;
+	margin: 5px;
+	padding: 0 0 25px 25px;
+	display: inline-block;
+}
+
+#login {
+	float: right;
+}
+
+#regForm p {
+	margin-bottom: 0;
+}
+
+h1 {
+	margin-bottom: 0;
+}
+
+#myForm {
+	display: flex;
+}
+
+#register, #login {
+	padding: 20px;
+}
+
+
+input[type='text'] {
+	width: 300px;
+	height: 25px;
+	padding: 3px;
+	margin-bottom: 15px;
+}
+
+#register input[type='text'] {
+	border: 2px solid #C71585;
+}
+
+input[type='button'] {
+	width: 125px;
+	height: 30px;
+	float: right;
+	font-size: 1em;
+}
+
+#register input[type='button'] {
+	background-color: #EFEFEF;
+	border: 2px solid #191970;
+	color: #191970;
+	font-weight: bold;
+}
+
+#register input[type='button']:active {
+	background-color: green;
+	color: white;
+	font-weight: bold;
+}
+
+#login {
+	background-color: #0B2E56;
+}
+
+#login input[type='button'] {
+	background-color: #EFEFEF;
+	border: 2px solid #191970;
+	color: #191970;
+	font-weight: bold;
+}
+
+#register input[type='button']:active {
+	background-color: green;
+	color: white;
+	font-weight: bold;
+}
+
+#register {
+	padding: 5px;
+	margin-right: 25px;
+}
+
+#register h2 {
+	font-size: 1.5em;
+	color: #191970;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+#login {
+	color: white;
+	padding-top: 0;
+	display: inline-block;
+}
+
+#login h2 {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#register #text1 {
+	font-size: 0.9em;
+	color: #696969;
+}
+
+#login input[type='button'] {
+	color: white;
+	background-color: #0B2E56;
+	border: 2px solid #FFA500;
+	font-weight: bold;
+}
+
+#login input[type='button']:active {
+	background-color: green;
+	color: white;
+	font-weight: bold;
+}
+
+#login a {
+	width: 100%;
+	color: white;
+	font-size: 0.8em;
+	align-self: right;
+}
+
+
